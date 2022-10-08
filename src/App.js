@@ -12,7 +12,7 @@ const App = () => {
   return (
     <main className="main">
       <section className="container">
-        <h1>BUSCA EL USUARIO</h1>
+        <h1>Search the user</h1>
         <SearchBar
           searchQuery={searchQuery}
           handleOnChange={(e) => {
